@@ -1,0 +1,46 @@
+body{
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.img1 {
+    border-radius: 50%;
+    border: 5px solid #3C1A7D;
+}
+
+.center { 
+    text-align: center;
+    border-radius: 50%;
+}
+
+h1 { 
+    color:#3C1A7D;
+    
+}
+
+li {
+    list-style-type: square;
+}
+
+.Lista {
+    padding-top: 20px;
+}
+
+.Len{ 
+    padding-top: 20px;
+}
