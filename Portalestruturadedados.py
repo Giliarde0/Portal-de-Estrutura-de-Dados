@@ -418,3 +418,96 @@ dicionario = {
 "Cidade": "São Paulo"}
 del dicionario["Apelido"]
 print(dicionario)
+print()
+
+print("Removendo um valor de um dicionario com popitem, o metodo popitem remove sempre o ultimo par, \n"
+"de um dicionario, e como resposta ele retorna o valor removido em forma de tuplas. Segue o exemplo abaixo:")
+nomes = {"Lucimara": "Marcos", "Debora": 2509}
+print(nomes)
+print(nomes.popitem())
+print(nomes.popitem())
+print(nomes)
+print()
+
+print("O método update pode ser utilizado para atualizar um dicionário com novos valores, "
+"e para funcionar ele recebe como parâmetro um outro dicionário, e após isso o original é \n"
+"modificado com base no escolhido e o novo dicionario adiciona as informações do dicionario anterior.")
+dic_a = {"A": "Bola", "B": "Aviao"}
+dic_b = {"B": "Cadeira", "C": "Carro"}
+dic_a.update(dic_b)
+print(dic_a)
+print()
+
+print("O Metodo Keys serve para retornar as chaves do dicionario, em uma estrutura,\n"
+" e essas chaves podem ser convertidas para listas")
+Dictionary1 = {'A': 'Geeks', 'B': 'For', 'C': 'Geeks'}
+print(Dictionary1.keys())
+empty_Dict1 = {}
+print(empty_Dict1.keys())
+print()
+
+print("O Metodo Items nos retorna uma estrutura que podem ser convertidas \n"
+" para listas e tuplas, onde cada tupla terá seu par com chave e valor")
+lugar = {"Lat": -22.817087, "Long": -47.069750}
+print(lugar.items())
+print(list(lugar.items()))
+print()
+
+print("Função")
+print("As funções são uma sequencia de comandos que executam códigos, \n"
+"ela separa e organiza grupos extensos de códigos para uma melhor visualização e manipulação,\n"
+"as funções podem receber parametros com qualquer tipo de dados para serem processados dentro da mesma."
+"È necessario chamar uma função antes de utiliza-la, e para redefinir uma função é simples, é somente \n"
+"declarar uma outra função com o mesmo nome, mas não necessariamente com o mesmo comportamento.")
+print()
+print("Exemplo basico e uma função:")
+def somar(valor1, valor2):
+
+    resultado = valor1 + valor2
+
+    return resultado
+print(somar(1, 2))
+print()
+
+print("Ordenação")
+print("A ordenação nada mais é do que um algoritimo de organização de elementos de acordo com a necessidade,\n"
+"seja em ordem crescente alfabetica, descrecsente, ordem de chegada, ordem numerica etc...")
+print()
+
+print("A Ordenação Interna não necessita de uma memoria secundaria, ou seja, o processo de ordenação\n"
+"é feita na memoria do computador.")
+print()
+print("A Ordenação Externa ocorre quando o metodo de ordenação é muito extenso e não cabe na memoria \n"
+"do computador, então necessita de uma outra memoria para executar o processo de ordenação.")
+print()
+
+print("São eles: Bubble Sort, Selection Sort, Insertion Sort, Comb Sort, \n"
+"Heap Sort, Shell Sort, Merge Sort e Quick Sort")
+print()
+
+print("Bubble Sort busca o elemento da primeira posição e compara com o proximo elemento, caso seja maior,\n"
+"eles trocam de posição, em seguida compara com o proximo, e verifica se é maior, assim sucessivamente.")
+print()
+
+print("Selection Sort consiste em verificar os indices com os demais e buscar o menor, sendo menor ele altera\n"
+"sua posição, sempre da direita para a esquerda.")
+print()
+
+print("Isertion Sort é um algoritimo simples para pequenas listas que percorre a lista da esquerda para a direita, a medida\n"
+"que avança, vai deixando os elementos ordenados.")
+print()
+
+print("Comb Sort é parecido com o Bubble Sort, só que mais eficiente, pois ele compara diversos elementos\n"
+"mais distantes.")
+print()
+
+print("Heap Sort simula uma arvore binaria, pois tem pais e filhos e vão se colocando em ordem crescente,\n"
+"precisam ser feitas muitas alterações entre eles, assim que vai sendo desenvolvido, eles vão se ordenando.")
+print()
+
+print("Shell Sort utiliza a mesma ordenação do Insertion Sort, porem mais rapida, pois divide-a em \n"
+"sublistas, e ela seleciona ate 3 elementos para colocar em ordenação.")
+print()
+
+
+
