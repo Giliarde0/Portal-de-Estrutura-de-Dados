@@ -429,9 +429,10 @@ print(nomes.popitem())
 print(nomes)
 print()
 
-print("O método update pode ser utilizado para atualizar um dicionário com novos valores, "
-"e para funcionar ele recebe como parâmetro um outro dicionário, e após isso o original é \n"
-"modificado com base no escolhido e o novo dicionario adiciona as informações do dicionario anterior.")
+print("O método update pode ser utilizado para atualizar um dicionário com novos valores,\n"
+"e para funcionar ele recebe como parâmetro um outro dicionário, \n"
+"e após isso o original é modificado com base no escolhido e o novo dicionario \n"
+"adiciona as informações do dicionario anterior.")
 dic_a = {"A": "Bola", "B": "Aviao"}
 dic_b = {"B": "Cadeira", "C": "Carro"}
 dic_a.update(dic_b)
@@ -456,15 +457,13 @@ print()
 print("Função")
 print("As funções são uma sequencia de comandos que executam códigos, \n"
 "ela separa e organiza grupos extensos de códigos para uma melhor visualização e manipulação,\n"
-"as funções podem receber parametros com qualquer tipo de dados para serem processados dentro da mesma."
+"as funções podem receber parametros com qualquer tipo de dados para serem processados dentro da mesma.\n"
 "È necessario chamar uma função antes de utiliza-la, e para redefinir uma função é simples, é somente \n"
 "declarar uma outra função com o mesmo nome, mas não necessariamente com o mesmo comportamento.")
 print()
 print("Exemplo basico e uma função:")
 def somar(valor1, valor2):
-
     resultado = valor1 + valor2
-
     return resultado
 print(somar(1, 2))
 print()
@@ -508,6 +507,12 @@ print()
 print("Shell Sort utiliza a mesma ordenação do Insertion Sort, porem mais rapida, pois divide-a em \n"
 "sublistas, e ela seleciona ate 3 elementos para colocar em ordenação.")
 print()
+
+print("Merge Sort é uma melhoria do Insertion Sort, ele quebra a lista original em um numero menor de sublistas.")
+print()
+
+print("Quick Sort, ele particiona um numero escolhido e separa todos os elementos, colocando os iguais ou \n"
+"menores ao numero escolhidos a esquerda e os maiores a direita.")
 
 
 
